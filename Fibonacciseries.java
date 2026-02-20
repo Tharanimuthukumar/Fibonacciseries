@@ -1,4 +1,4 @@
-public class Fibonacci {
+public class Fibonacciseries {
 
     // Recursive Method
     static int fib(int n) {
