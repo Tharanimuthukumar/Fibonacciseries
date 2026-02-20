@@ -5,10 +5,10 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy Java file
-COPY Fibonacci.java .
+COPY Fibonacciseries.java .
 
 # Compile
-RUN javac Fibonacci.java
+RUN javac Fibonacciseries.java
 
 # Run program (default argument)
-CMD ["java", "Fibonacci", "7"]
+CMD ["java", "Fibonacciseries", "7"]
